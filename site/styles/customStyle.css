@@ -1,0 +1,51 @@
+body {
+    padding-top: 100px;
+}
+
+img {
+    max-width:100%;
+}
+
+.carousel-caption {
+    bottom:initial;
+    top:100px;
+}
+
+.carousel-caption img {
+    max-width:200px;
+    height: initial;
+    min-height: initial !important;
+    position: initial !important;
+    top: initial !important;
+    left: initial !important;
+}
+
+.cNavbar {
+    background:#fff !important;
+}
+
+.list-group-item {
+    background: initial !important;
+    color:#fff;
+    border: 1px solid rgba(255,255,255,.125);
+}
+
+footer.cFooter {
+    background:#333;padding:20px 0;margin-top:20px;color:#fff;
+}
+
+footer.cFooter a {
+    color:#fff;
+}
+
+
+.carousel .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 400px;
+  }
